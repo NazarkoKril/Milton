@@ -37,24 +37,24 @@ img {
           user-select: none;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
+html::-webkit-scrollbar {
+  width: 10px;
   height: 12px;
 }
 
-::-webkit-scrollbar-track {
-  background: #ece5db;
+html::-webkit-scrollbar-track {
+  background: #EBEBEB;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #4d3e31;
+html::-webkit-scrollbar-thumb {
+  background: rgba(254, 1, 0, 0.8);
   border-radius: 6px;
   -webkit-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #453526;
+html::-webkit-scrollbar-thumb:hover {
+  background: #FE0100;
 }
 
 main {
@@ -188,7 +188,7 @@ main {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: var(--Background_White, #FFF);
+  color: var(--Background_White, #fff);
   text-align: center;
   font-family: Inter;
   font-size: 16px;
@@ -243,4 +243,10 @@ main {
 .btn_white:hover {
   background: var(--Text_Dark, rgba(35, 35, 35, 0.8));
   border: 1px solid #232323;
+}
+
+@media (max-width: 1020px) {
+  .title_big {
+    font-size: 36px;
+  }
 }
