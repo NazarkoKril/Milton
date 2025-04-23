@@ -2,8 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
 // burger 
 
-    const burgerIcon = document.querySelector('.burger__icon');
-    const burgerMenu = document.querySelector('.burger__menu');
+    const burgerIcon = document.querySelector('.burger-icon');
+    const burgerMenu = document.querySelector('.burger-menu');
 
     if (burgerIcon && burgerMenu) {
         burgerIcon.addEventListener('click', () => {
