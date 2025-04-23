@@ -16,15 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
       document.querySelector(`[data-tab="${tabId}"]`).classList.add('active');
     }
     
-   
     tabButtons.forEach(button => {
       button.addEventListener('click', function() {
         const tabId = this.getAttribute('data-tab');
         switchTab(tabId);
       });
     });
-    
-   
-    
     switchTab('forex');
   });
