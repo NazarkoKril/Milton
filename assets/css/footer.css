@@ -8,9 +8,8 @@
 .footer-links {
   margin-bottom: 64px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 40px;
+  gap: 40px 22px;
 }
 .footer-links-item {
   width: 200px;
@@ -50,10 +49,12 @@
   display: flex;
   gap: 16px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .footer .footer-logos-item {
   padding: 10px 34px;
   opacity: 0.4;
+  flex-shrink: 0;
 }
 .footer .footer-social {
   margin-bottom: 32px;
@@ -101,4 +102,24 @@
 .footer-privacy {
   display: flex;
   gap: 24px;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    padding: 64px 20px 32px;
+  }
+  .footer .logo {
+    margin-bottom: 40px;
+  }
+  .footer-links {
+    margin-bottom: 40px;
+  }
+  .footer-logos {
+    margin-bottom: 40px;
+  }
+  .footer-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
 }
