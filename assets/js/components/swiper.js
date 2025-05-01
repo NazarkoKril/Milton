@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    new Swiper(".swiper", {
+    new Swiper(".swipers", {
         slidesPerView: "auto", 
         spaceBetween: 24, 
         loop: false,

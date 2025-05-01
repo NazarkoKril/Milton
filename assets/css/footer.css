@@ -33,7 +33,7 @@
   margin-bottom: 16px;
 }
 .footer h6 {
-  font-family: "PT Sans";
+  font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
@@ -111,7 +111,8 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.footer-bottom a, .footer-bottom p {
+.footer-bottom a,
+.footer-bottom p {
   font-family: "Inter";
   font-weight: 400;
   font-size: 14px;

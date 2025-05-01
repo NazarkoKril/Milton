@@ -43,7 +43,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #EBEBEB;
+  background: #ebebeb;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -54,7 +54,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 html::-webkit-scrollbar-thumb:hover {
-  background: #FE0100;
+  background: #fe0100;
 }
 
 main {

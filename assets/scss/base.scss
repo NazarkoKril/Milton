@@ -47,17 +47,17 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-	background: #EBEBEB;
+	background: #ebebeb;
 }
 
 html::-webkit-scrollbar-thumb {
-	background: #FE0100cc;
+	background: #fe0100cc;
 	border-radius: 6px;
 	transition: all 0.35s ease-in-out;
 }
 
 html::-webkit-scrollbar-thumb:hover {
-	background: #FE0100;
+	background: #fe0100;
 }
 
 main {
@@ -195,8 +195,8 @@ main {
 	}
 }
 
-@media (max-width:1020px) {
-  .title_big{
-    font-size: 36px ;
-  }
+@media (max-width: 1020px) {
+	.title_big {
+		font-size: 36px;
+	}
 }
