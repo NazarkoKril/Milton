@@ -1,0 +1,60 @@
+.error-section {
+  padding: 112px 0 128px;
+}
+.error-section .error-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #232323;
+}
+.error-section .error-title {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.error-section h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 330px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.error-section .error-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-bottom: 64px;
+}
+.error-section .buttons {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 1020px) {
+  .error-section {
+    padding: 32px 0 64px;
+  }
+  .error-section .error-title {
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 40px;
+  }
+  .error-section h1 {
+    font-weight: 700;
+    font-size: 165px;
+    margin-bottom: 12px;
+  }
+  .error-section .error-text {
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 40px;
+  }
+}
