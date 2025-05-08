@@ -1,0 +1,362 @@
+.hero-article-section {
+  padding-top: 64px;
+}
+.hero-article-section .hero-title {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  color: #232323;
+}
+.hero-article-section h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 78px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+  color: #232323;
+  max-width: 975px;
+}
+.hero-article-section .hero-time-date {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(35, 35, 35, 0.8);
+  margin-bottom: 64px;
+}
+.hero-article-section img {
+  height: 620px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-section {
+  padding: 32px 0 80px;
+}
+.info-section .info-top {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 4px;
+}
+.info-section .info-top .left {
+  max-width: 421px;
+  flex: 1;
+}
+.info-section .info-top .right {
+  flex: 2;
+}
+.info-section .info-top .info-text {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+.info-section .info-headings {
+  padding: 24px;
+}
+.info-section .info-headings p {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #232323;
+}
+.info-section .info-headings h2, .info-section .info-headings h4 {
+  font-family: "Inter";
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.info-section .info-headings h2:not(:last-child), .info-section .info-headings h4:not(:last-child) {
+  margin-bottom: 16px;
+}
+.info-section .info-headings h2 {
+  font-weight: 500;
+  font-size: 36px;
+}
+.info-section .info-headings h4 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.info-section .info-bottom {
+  display: flex;
+  gap: 24px;
+}
+.info-section .info-bottom .left {
+  max-width: 421px;
+  flex: 1;
+  padding-top: 60px;
+}
+.info-section .info-bottom .left .grey-block {
+  height: 361px;
+  width: 100%;
+  background-color: #C0C0C0;
+}
+.info-section .info-bottom .right {
+  flex: 2;
+}
+.info-section .info-bottom .info-text {
+  padding-bottom: 32px;
+}
+.info-section .info-text {
+  padding: 0 24px;
+}
+.info-section .info-form {
+  background-color: #fff;
+  box-shadow: 0px 23px 33.2px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 24px;
+  margin-bottom: 64px;
+}
+.info-section .info-form h4 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+  color: #232323;
+}
+.info-section .info-form p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+.info-section .info-form p.text {
+  color: rgba(35, 35, 35, 0.8);
+  margin-bottom: 24px;
+  max-width: 313px;
+}
+.info-section .info-form p.small {
+  color: #232323;
+}
+.info-section .info-form p.small a {
+  color: #232323;
+  white-space: nowrap;
+}
+.info-section .info-form form {
+  margin-bottom: 24px;
+}
+.info-section .info-form form input {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid rgba(35, 35, 35, 0.2);
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: rgba(35, 35, 35, 0.8);
+  background-color: transparent;
+  margin-bottom: 16px;
+}
+.info-section .info-form form .btn_black {
+  width: 100%;
+}
+.info-section .text-block {
+  max-width: 804px;
+  color: #232323;
+  margin: 0 auto;
+}
+.info-section .text-block:not(:last-child) {
+  margin-bottom: 64px;
+}
+.info-section .text-block p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+.info-section .text-block p:not(:last-child) {
+  margin-bottom: 16px;
+}
+.info-section .text-block2 p {
+  font-size: 18px;
+}
+.info-section .text-block2 p.bold {
+  font-weight: 500;
+}
+.info-section .text-block4 li {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-left: 13px;
+  position: relative;
+}
+.info-section .text-block4 li:not(:last-child) {
+  margin-bottom: 16px;
+}
+.info-section .text-block4 li .bold {
+  font-weight: 700;
+}
+.info-section .text-block4 li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 5.77px;
+  height: 6px;
+  background-color: #FE0100;
+  border-radius: 50%;
+}
+.info-section .text-block h2 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 110%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 32px;
+}
+.info-section .text-block h3 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 24px;
+}
+.info-section .text-block h4 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 24px;
+}
+.info-section .quote-block {
+  max-width: 803px;
+  margin: 0 auto;
+  background-color: #232323;
+  box-shadow: 0px 23px 33.2px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 24px;
+  margin-bottom: 64px;
+  color: #fff;
+}
+.info-section .quote-block .text {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 24px;
+}
+.info-section .quote-block .position {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.info-section .quote-block h3 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+.info-section .photo-block {
+  max-width: 803px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+.info-section .photo-block img {
+  width: 100%;
+  margin-bottom: 24px;
+  object-fit: cover;
+  height: 519px;
+}
+.info-section .photo-block p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #232323;
+}
+
+@media (max-width: 1020px) {
+  .hero-article-section {
+    padding: 32px 0 64px;
+  }
+  .hero-article-section h1 {
+    font-size: 54px;
+  }
+  .hero-article-section .hero-time-date {
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 32px;
+  }
+  .hero-article-section img {
+    height: auto;
+  }
+  .info-section {
+    padding: 0;
+    padding-bottom: 64px;
+  }
+  .info-section .info-top {
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: 40px;
+  }
+  .info-section .info-headings {
+    padding: 24px 0;
+  }
+  .info-section .text-block:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .info-section .text-block h2 {
+    font-weight: 600;
+    font-size: 36px;
+  }
+  .info-section .text-block h3 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .info-section .info-bottom {
+    flex-direction: column-reverse;
+    gap: 84px;
+  }
+  .info-section .info-bottom .left {
+    max-width: unset;
+    padding: 0;
+  }
+  .info-section .info-text {
+    padding: 0 !important;
+  }
+  .info-section .quote-block {
+    margin-bottom: 40px;
+  }
+  .info-section .photo-block {
+    margin-bottom: 40px;
+  }
+  .info-section .photo-block img {
+    height: auto;
+  }
+  .desk {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  .info-section .info-form p.small a {
+    line-height: calc(140% + 8px);
+  }
+}
