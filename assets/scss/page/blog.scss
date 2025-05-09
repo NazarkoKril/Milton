@@ -46,6 +46,7 @@
             background-color: #EBEBEB;
             transition: var(--trans);
             display: block;
+            cursor: pointer;
 
             &:hover, &:has(input:checked) {
                 background-color: #232323;
@@ -228,15 +229,24 @@
         .insights-card {
             max-width: 421px;
             min-width: 310px;
+            display: block;
+
+            &:hover {
+                img {
+                    transform: scale(1.2);
+                }
+            }
     
             &-photo {
                 width: 100%;
                 height: 240px;
                 margin-bottom: 24px;
+                overflow: hidden;
     
                 img {
                     object-fit: cover;
                     height: 100%;
+                    transition: var(--trans);
                 }
             }
     

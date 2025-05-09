@@ -80,15 +80,24 @@
             color: #232323;
         }
 
+        a {
+            color: #232323;
+            transition: var(--trans);
+
+            &:not(:last-child) {
+                margin-bottom: 16px;
+            }
+
+            &:hover {
+                color: #232323cc;
+            }
+        }
+
         h2, h4 {
             font-family: 'Inter';
             line-height: 130%;
             letter-spacing: 0%;
             vertical-align: middle;
-
-            &:not(:last-child) {
-                margin-bottom: 16px;
-            }
         }
 
         h2 {

@@ -71,14 +71,21 @@
   margin-bottom: 16px;
   color: #232323;
 }
+.info-section .info-headings a {
+  color: #232323;
+  transition: var(--trans);
+}
+.info-section .info-headings a:not(:last-child) {
+  margin-bottom: 16px;
+}
+.info-section .info-headings a:hover {
+  color: rgba(35, 35, 35, 0.8);
+}
 .info-section .info-headings h2, .info-section .info-headings h4 {
   font-family: "Inter";
   line-height: 130%;
   letter-spacing: 0%;
   vertical-align: middle;
-}
-.info-section .info-headings h2:not(:last-child), .info-section .info-headings h4:not(:last-child) {
-  margin-bottom: 16px;
 }
 .info-section .info-headings h2 {
   font-weight: 500;

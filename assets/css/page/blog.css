@@ -39,6 +39,7 @@
   background-color: #EBEBEB;
   transition: var(--trans);
   display: block;
+  cursor: pointer;
 }
 .settings-section .dropdown label:hover, .settings-section .dropdown label:has(input:checked) {
   background-color: #232323;
@@ -192,15 +193,21 @@
 .blogs-section .blogs-list .insights-card {
   max-width: 421px;
   min-width: 310px;
+  display: block;
+}
+.blogs-section .blogs-list .insights-card:hover img {
+  transform: scale(1.2);
 }
 .blogs-section .blogs-list .insights-card-photo {
   width: 100%;
   height: 240px;
   margin-bottom: 24px;
+  overflow: hidden;
 }
 .blogs-section .blogs-list .insights-card-photo img {
   object-fit: cover;
   height: 100%;
+  transition: var(--trans);
 }
 .blogs-section .blogs-list .insights-card-info > p {
   margin-bottom: 16px;
