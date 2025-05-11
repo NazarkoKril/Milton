@@ -841,7 +841,7 @@
   width: 310px;
   padding: 24px;
   background-color: #fff;
-  transition: var(--trans);
+  transition: box-shadow 0.35s ease-in-out, transform 0.5s ease-out 50ms !important;
 }
 .overview-item:hover {
   box-shadow: 0px 23px 33.2px 0px rgba(0, 0, 0, 0.1019607843);
@@ -917,6 +917,7 @@
 
 .promotions-section {
   padding: 80px 0;
+  overflow: hidden;
 }
 .promotions-section h2 {
   margin-bottom: 24px;

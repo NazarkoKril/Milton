@@ -84,3 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+AOS.init({
+    delay: 50,
+    duration: 500, 
+    easing: 'ease-out',
+    once: true,
+});

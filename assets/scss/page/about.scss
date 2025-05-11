@@ -124,7 +124,7 @@
         align-items: flex-start;
         overflow: hidden;
         background: #fff;
-        transition: box-shadow 0.3s linear;
+        transition: box-shadow 0.3s linear, transform .5s ease-out 50ms !important;
         &:hover {
             box-shadow: 0px 23px 33.2px 0px rgba(0, 0, 0, 0.1);
         }
@@ -293,6 +293,7 @@
 }
 .sect_jorney {
 	padding-block: 80px;
+	overflow: hidden;
 	.title_big {
 		max-width: 535px;
 		margin: 0 auto;
