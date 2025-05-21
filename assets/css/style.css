@@ -434,6 +434,7 @@
 
 .sect_trade {
   padding-block: 80px;
+  overflow: hidden;
 }
 .sect_trade .subtitle {
   color: var(--text-dark-80, rgba(35, 35, 35, 0.8));

@@ -1,0 +1,190 @@
+.sect_hero {
+  padding: 0;
+}
+.sect_hero .hero-container {
+  padding: 48px;
+  background-color: #EBEBEB;
+}
+.sect_hero .right {
+  max-width: 584px;
+}
+.sect_hero .left {
+  flex: 1;
+  max-width: unset;
+  min-width: 450px;
+}
+.sect_hero .left p {
+  max-width: 451px;
+}
+.sect_hero .buttons {
+  display: flex;
+  gap: 21px 8px;
+  flex-wrap: wrap;
+}
+
+.pairs-section {
+  padding: 80px 0;
+}
+.pairs-section .title_big {
+  margin-bottom: 64px;
+}
+.pairs-section .btn_trans {
+  margin: 29px auto 0;
+}
+
+.conditions-section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+.conditions-section .conditions-container {
+  display: flex;
+  gap: 24px;
+}
+.conditions-section .conditions-container .left {
+  max-width: 421px;
+  flex: 1;
+}
+.conditions-section .conditions-container .left h3 {
+  color: #232323;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  margin-bottom: 24px;
+}
+.conditions-section .conditions-container .left p {
+  color: rgba(35, 35, 35, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 53px;
+  max-width: 370px;
+}
+.conditions-section .conditions-container .right {
+  flex: 2;
+}
+.conditions-section .btn_trans {
+  padding-left: 0px;
+}
+.conditions-section .btn_trans .icon_btn {
+  transition: var(--trans);
+}
+.conditions-section .btn_trans:hover {
+  background: none;
+  color: #232323;
+  border: 1px solid transparent;
+}
+.conditions-section .btn_trans:hover .icon_btn {
+  transform: translateX(20px);
+}
+.conditions-section .conditions-red {
+  padding: 24px;
+  background-color: #EBEBEB;
+  margin-bottom: 16px;
+}
+.conditions-section .conditions-red p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FE0100;
+}
+.conditions-section .conditions-text {
+  padding: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.conditions-section .conditions-text:not(:last-child) {
+  margin-bottom: 16px;
+}
+.conditions-section .conditions-text h4 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #232323;
+  margin-bottom: 24px;
+}
+.conditions-section .conditions-text p, .conditions-section .conditions-text li {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(35, 35, 35, 0.8);
+}
+.conditions-section .conditions-text p:not(:last-child) {
+  margin-bottom: 24px;
+}
+.conditions-section .conditions-text ul {
+  margin-bottom: 24px;
+}
+.conditions-section .conditions-text ul li {
+  position: relative;
+  padding-left: 24px;
+}
+.conditions-section .conditions-text ul li .bold {
+  font-weight: 700;
+}
+.conditions-section .conditions-text ul li::before {
+  content: "";
+  position: absolute;
+  left: 9.5px;
+  top: 9.8px;
+  width: 5px;
+  height: 5px;
+  background-color: rgba(35, 35, 35, 0.8);
+  border-radius: 50%;
+}
+
+@media (max-width: 1020px) {
+  .sect_hero .hero-container {
+    padding: 32px 17px;
+  }
+  .sect_hero .hero-container .flex2 {
+    gap: 29px;
+  }
+  .sect_hero .hero-container .left {
+    min-width: unset;
+  }
+  .sect_hero .hero-container .left p {
+    margin: 0 auto 40px;
+  }
+  .sect_hero .buttons {
+    justify-content: center;
+  }
+  .pairs-section {
+    padding: 64px 0;
+  }
+  .pairs-section .title_big {
+    margin-bottom: 40px;
+  }
+  .pairs-section .btn_trans {
+    margin-top: 53px;
+  }
+  .conditions-section {
+    padding: 64px 0;
+  }
+  .conditions-section .conditions-container {
+    flex-direction: column;
+    gap: 29px;
+  }
+  .conditions-section .conditions-container .left h3 {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+  }
+  .conditions-section .conditions-container .left p {
+    margin-bottom: 13px;
+  }
+  .conditions-section .conditions-red {
+    padding: 24px 16px;
+  }
+  .conditions-section .conditions-text {
+    padding: 24px 0;
+  }
+}

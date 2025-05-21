@@ -460,6 +460,7 @@
 //sect_trade -----------------
 .sect_trade {
 	padding-block: 80px;
+	overflow: hidden;
 	.subtitle {
 		color: var(--text-dark-80, rgba(35, 35, 35, 0.8));
 		text-align: center;
