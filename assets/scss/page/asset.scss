@@ -1,0 +1,323 @@
+.asset-hero-section {
+    padding: 64px 0 80px;
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    .hero-trade {
+        background-color: #fff;
+        box-shadow: 0px 23px 33.2px 0px #0000001A;
+        width: 100%;
+        max-width: 1090px;
+        padding: 24px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 24px;
+        margin: 0 auto 64px;
+
+        &-currency {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            gap: 24px;
+
+            &-name {
+                font-family: 'Inter';
+
+                .top {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 140%;
+                    letter-spacing: 0%;
+                    margin-bottom: 8px;
+                    color: #232323;
+                }
+
+                .bottom {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0%;
+                    color: #232323CC;
+                }
+            }
+        }
+
+        &-flags {
+		    display: flex;
+    		position: relative;
+            width: 80px;
+
+		    img {
+			    width: 43.96px;
+                height: 28.57px;
+                border-radius: 1.76px;
+                box-shadow: 0px 10.11px 14.59px 0px #0000001A;
+    		}
+
+	    	.flag1 {
+		    	z-index: 2;
+			    margin-top: 22.92px;
+    			margin-bottom: 29.51px;
+	    	}
+		    .flag2 {
+			    z-index: 1;
+    			position: absolute;
+	    		top: 29.51px;
+		    	left: 36.04px;
+		    }
+    	}   
+
+        &-info {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 16px;
+            align-items: center;
+            border-left: 1px solid #EBEBEB;
+            border-right: 1px solid #EBEBEB;
+
+            .right {
+                text-align: right;
+                .top {
+                    color: #0BBD83;
+                }             
+            }
+            
+            .top {
+                font-family: 'Inter';
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 140%;
+                letter-spacing: 0%;
+                color: #232323;
+                margin-bottom: 8px;
+            }
+
+            .bottom {
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0%;
+                color: #232323cc;
+            }
+        }
+
+        &-buttons {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+
+            .btn_red {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                min-width: 160px;
+                height: unset;
+                margin: 0;
+
+                &.green {
+                    background-color: #0FBB83;
+                    border-color: #0FBB83;
+
+                    &:hover {
+                        background-color: #0FBB8390;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero-photo {
+        width: 100%;
+        height: 580px;
+        background-color: #D9D9D9;
+        margin-bottom: 40px;
+    }
+
+    .btn_red {
+        margin: 0 auto;
+    }
+}
+
+.sect_tabs {
+    overflow: hidden;
+
+    h2 {
+        max-width: 740px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    >p {
+        max-width: 618px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 64px;
+		margin-bottom: 64px;
+		align-items: center;
+        height: 580px;
+	}
+	.left {
+		max-width: 570px;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		justify-content: flex-start;
+		h5 {
+			color: var(--Text_Dark, #232323);
+
+			/* Tag_S */
+			font-family: "IBM Plex Mono";
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 110%; /* 15.4px */
+			letter-spacing: 0.14px;
+			text-transform: uppercase;
+		}
+		h2 {
+			color: var(--Text_Dark, #232323);
+
+			/* H2 */
+			font-family: Inter;
+			font-size: 48px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 110%; /* 52.8px */
+            margin: 0;
+		}
+		p {
+			color: var(--text-dark-80, rgba(35, 35, 35, 0.8));
+
+			/* Text */
+			font-family: Inter;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 150%; /* 24px */
+			max-width: 460px;
+		}
+		h4 {
+			color: var(--Text_Dark, #232323);
+
+			/* Text_L-Medium */
+			font-family: Inter;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 150%; /* 27px */
+			border-left: 2px solid var(--Red, #fe0100);
+			padding-left: 12px;
+		}
+		.btn_trans {
+			margin: 40px 0 0;
+			padding-left: 0px;
+			.icon_btn {
+				transition: var(--trans);
+			}
+			&:hover {
+				background: none;
+				color: #232323;
+				border: 1px solid transparent;
+				.icon_btn {
+					transform: translateX(20px);
+				}
+			}
+		}
+	}
+
+    .right {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 100%;
+            max-height: 580px;
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .asset-hero-section {
+        padding: 32px 0 64px;
+
+        h1 {
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 100%;
+            margin-bottom: 32px;
+        }
+
+        .hero-trade {
+            padding: 24px 16px;
+            flex-direction: column;
+            margin-bottom: 32px;
+
+            &-currency {
+                justify-content: center;
+            }
+
+            &-info {
+                padding-top: 16px;
+                padding-bottom: 24px;
+                border-left: none;
+                border-right: none;
+                border-top: 1px solid #EBEBEB;
+                border-bottom: 1px solid #EBEBEB;
+            }
+
+            &-buttons {
+                gap: 8px;
+
+                .btn_red {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+            }
+        }
+
+        .hero-photo {
+            margin-bottom: 40px;
+        }
+    }
+
+    .sect_tabs {
+        .grid2 {
+		    display: flex;
+		    flex-direction: column;
+		    margin-bottom: 40px;
+            height: unset;
+        }
+
+        .left {
+            h2 {
+		        font-size: 36px;
+		        font-weight: 600;
+	        }
+
+            .btn_trans {
+        		margin-top: 16px;
+	        }
+        }
+
+        .right {
+            width: 100%;
+            min-height: 320px;
+
+            img {
+                height: 320px;
+            }
+        }
+    }
+}
