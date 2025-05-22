@@ -1,0 +1,142 @@
+.account-hero-section {
+    padding: 64px 0;
+
+    h1 {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 78px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 0 auto 24px;
+        max-width: 928px;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #232323CC;
+        margin: 0 auto 40px;  
+        max-width: 518px;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+}
+
+.sect_acc {
+    .acc-table {
+        margin-top: 64px;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        table {
+            min-width: 836px;
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            display: block;
+            overflow: hidden;
+
+            tr {
+                border-bottom: 1px solid var(--Grey, #EBEBEB)
+            }              
+
+            thead {
+                border-bottom: 1px solid #08080899;
+
+                th {
+                    font-family: 'Inter';
+                    font-weight: 500;
+                    font-size: 36px;
+                    line-height: 130%;
+                    letter-spacing: 0%;
+                    color: #232323;
+                    padding-bottom: 16px;
+                }
+            }
+
+            tbody {
+                th {
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0%;
+                    color: #232323cc;
+                    padding: 20px 0;
+                }
+
+                td {
+                    font-family: 'Inter';
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 150%;
+                    letter-spacing: 0%;
+                    color: #232323;
+                    padding: 20px 0;
+                }
+            }
+
+            th, td {
+                min-width: 310px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1020px) {
+    .account-hero-section {
+        padding: 32px 0 21px;
+
+        h1 {
+            font-size: 54px;
+            line-height: 100%;
+        }
+
+        p {
+            max-width: 268px;
+        }
+    }
+
+    .sect_acc {
+        .acc-table table {
+            thead {
+                th {
+                    font-weight: 400;
+                    font-size: 24px;
+                }
+            }
+
+            tbody {
+                th, td {
+                    padding: 12px 0;
+                }
+            }
+
+            th, td {
+                min-width: 200px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .account-hero-section {
+        .buttons {
+            gap: 21px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
