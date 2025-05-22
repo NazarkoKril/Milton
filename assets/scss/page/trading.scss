@@ -1,0 +1,205 @@
+.sect_hero{
+    padding: 64px 0 80px;
+
+    .right {
+        max-width: 644px;
+    }
+}
+
+.income-section {
+    padding: 80px 0;
+
+    .income-block {
+        padding: 48px;
+        background-color: #EBEBEB;
+    }
+
+    .income-top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-bottom: 64px;
+
+        h2 {
+            font-family: 'Inter';
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 110.00000000000001%;
+            letter-spacing: 0%;
+            color: #232323;
+            max-width: 550px;
+            min-width: 300px;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            color: #232323cc;
+            max-width: 484px;
+            min-width: 300px;
+        }
+    }
+
+    .income-bottom {
+        display: flex;
+        gap: 40px 80px;
+        align-items: flex-end;
+    }
+
+    .income-number {
+        font-family: 'Inter';
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #232323;
+        margin-bottom: 16px;
+    }
+
+    .income-label {
+        font-family: 'IBM Plex Mono';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 110.00000000000001%;
+        letter-spacing: 1%;
+        text-transform: uppercase;
+        color: #232323cc;
+    }
+
+    .income-range {
+        max-width: 525px;
+
+        svg {
+            width: calc(100% - 16px);
+            margin-left: 16px;
+            margin-bottom: -15px;
+            height: auto;
+        }
+
+        input[type="range"] {
+            appearance: none;
+            width: 100%;
+            height: 4px;
+            background: white;
+            border-radius: 0; 
+            outline: none;
+            position: relative;
+
+            &::-webkit-slider-runnable-track {
+                height: 4px;
+                background: white;
+            }
+
+            &::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 16px;
+                height: 16px;
+                background: #FE0100;
+                border-radius: 50%;
+                margin-top: -6px; 
+                cursor: pointer;
+                position: relative;
+                z-index: 1;
+            }
+
+        }
+
+        &-numbers {
+            width: 100%;
+            display: flex;
+            justify-content: space-between; 
+            margin-top: 11px;
+
+            span {
+                font-family: 'IBM Plex Mono';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 110.00000000000001%;
+                letter-spacing: 1%;
+                text-transform: uppercase;
+                color: #232323cc;
+            }
+        }
+
+        
+    }
+}
+
+@media (max-width: 1020px) {
+    .sect_hero {
+        padding: 32px 0;
+
+        .left {
+            min-width: unset;
+
+            p {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .income-section {
+        padding: 64px 0;
+
+        .income-block {
+            padding: 24px 16px;
+        }
+
+        .income-top {
+            margin-bottom: 40px;
+
+            h2 {
+                font-weight: 600;
+                font-size: 36px;
+            }
+        }
+
+        .income-bottom {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .income-number {
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 110.00000000000001%;
+        }
+
+        .income-range input[type="range"] {
+            height: 2.42px;
+
+            &::-webkit-slider-thumb {
+                width: 9.69px;
+                height: 9.69px;
+                margin-top: -3px;
+            }
+        }
+
+        .income-range svg {
+            margin-bottom: -26px;
+        }
+
+        .income-range-numbers {
+            margin-top: 9.69px;
+
+            span {
+                font-size: 8.48px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .account-hero-section {
+        .buttons {
+            gap: 21px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
