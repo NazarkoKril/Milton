@@ -57,10 +57,10 @@
                     </div>
                 </div>
                 <div class="header-item">
-                    <a href="#" class="header-link">Markets
+                    <p class="header-link">Markets
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
-                    </svg></a>
+                    </svg></p>
                     <div class="header-item-dropdown">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
@@ -77,10 +77,10 @@
                     </div>
                 </div>
                 <div class="header-item">
-                    <a href="#" class="header-link">Platform
+                    <p class="header-link">Platform
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
-                    </svg></a>
+                    </svg></p>
                     <div class="header-item-dropdown">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
@@ -97,10 +97,10 @@
                     </div>
                 </div>
                 <div class="header-item">
-                    <a href="#" class="header-link">Resources
+                    <p class="header-link">Resources
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
-                    </svg></a>
+                    </svg></p>
                     <div class="header-item-dropdown">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
@@ -117,10 +117,10 @@
                     </div>
                 </div>
                 <div class="header-item">
-                    <a href="#" class="header-link">Company
+                    <p class="header-link">Company
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
-                    </svg></a>
+                    </svg></p>
                     <div class="header-item-dropdown">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
