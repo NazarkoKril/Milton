@@ -1,13 +1,15 @@
 .header {
-  padding: 18px 64px;
+  padding: 18px 0;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   z-index: 100;
   background-color: #f8f8f8;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .header.active ~ .overlay {
@@ -21,6 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex: 1;
 }
 .header nav {
   display: flex;

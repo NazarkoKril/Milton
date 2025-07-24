@@ -1,5 +1,6 @@
     const header = document.querySelectorAll('.header_component')
     const headerComponent = ` <header class="header">
+        <div class="container">
             <a href="./" class="logo">
                 <img src="/assets/img/Logo.svg" alt="logo">
             </a>
@@ -161,6 +162,7 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </button>
+        </div>
         </header>
 <div class="overlay" id="overlay"></div>
 
