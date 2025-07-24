@@ -1,9 +1,49 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const menuButtons = document.querySelectorAll('.header-item');
+const overlay = document.getElementById('overlay');
+const header = document.querySelector('header');
+
+let activeBtn = null;
+
+menuButtons.forEach(button => {
+  button.addEventListener('click', (e) => {
+    // Знаходимо dropdown всередині поточного header-item
+    const targetBtn = e.target.closest('.header-item');
+    
+    // Якщо немає dropdown в цьому елементі, виходимо
+    if (!targetBtn.querySelector('.header-item-dropdown')) return;
+
+    // Закриваємо попереднє активне меню, якщо воно відрізняється від поточного
+    if (activeBtn && activeBtn !== targetBtn) {
+      activeBtn.classList.remove('nav-open');
+    }
+
+    // Перемикаємо стан поточного меню
+    if (targetBtn.classList.contains('nav-open')) {
+      targetBtn.classList.remove('nav-open');
+      header.classList.remove('active');
+      activeBtn = null;
+    } else {
+      targetBtn.classList.add('nav-open');
+      header.classList.add('active');
+      activeBtn = targetBtn;
+    }
+  });
+});
+
+overlay.addEventListener('click', () => {
+  if (activeBtn) activeBtn.classList.remove('nav-open');
+  header.classList.remove('active');
+  activeBtn = null;
+});
+
+});
 
 document.addEventListener('DOMContentLoaded', () => {
 // burger 
 
     const burgerIcon = document.querySelector('.burger-icon');
-    const burgerMenu = document.querySelector('.burger-menu');
+    const burgerMenu = document.querySelector('.header-menu');
 
     if (burgerIcon && burgerMenu) {
         burgerIcon.addEventListener('click', () => {
@@ -52,35 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 dropdown.classList.remove('active');
             }
         });
-    });
-});
-
-
-document.addEventListener("DOMContentLoaded", function () {
-    const headerItems = document.querySelectorAll('.header-item');
-
-    headerItems.forEach(item => {
-        const button = item.querySelector('.header-item-btn');
-
-        if (button) {
-            button.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                headerItems.forEach(i => {
-                    if (i !== item) {
-                        i.classList.remove('active');
-                    }
-                });
-
-                item.classList.toggle('active');
-            });
-        }
-    });
-
-    document.addEventListener('click', function (e) {
-        if (!e.target.closest('.header-item')) {
-            headerItems.forEach(item => item.classList.remove('active'));
-        }
     });
 });
 
