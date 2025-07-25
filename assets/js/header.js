@@ -12,6 +12,7 @@
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
                     </svg></p>
                     <div class="header-item-dropdown">
+                    <div class="container">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
                             <div class="header-item-dropdown-item">
@@ -54,7 +55,7 @@
                             <a href="#" class="header-item-dropdown-link">Link 4</a>
                         </div>
                         </div>
-                        
+                    </div>
                     </div>
                 </div>
                 <div class="header-item">
@@ -83,6 +84,7 @@
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
                     </svg></p>
                     <div class="header-item-dropdown">
+                    <div class="container">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
                             <div class="header-item-dropdown-item">
@@ -95,6 +97,7 @@
                             <a href="#" class="header-item-dropdown-link">Link 3</a>
                         </div>
                         </div>
+                    </div>
                     </div>
                 </div>
                 <div class="header-item">
@@ -103,6 +106,7 @@
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
                     </svg></p>
                     <div class="header-item-dropdown">
+                    <div class="container">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
                             <div class="header-item-dropdown-item">
@@ -116,6 +120,7 @@
                         </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="header-item">
                     <p class="header-link">Company
@@ -123,6 +128,7 @@
                         <path d="M11.2842 8L8.5 10.6417L5.71579 8L5 8.67915L8.5 12L12 8.67915L11.2842 8Z" fill="#232323"/>
                     </svg></p>
                     <div class="header-item-dropdown">
+                    <div class="container">
                         <div class="header-item-dropdown-column">
                             <p class="header-item-dropdown-subtitle">Accounts</p>
                             <div class="header-item-dropdown-item">
@@ -135,6 +141,7 @@
                             <a href="#" class="header-item-dropdown-link">Link 3</a>
                         </div>
                         </div>
+                    </div>
                     </div>
                 </div>
                 <div class="header-item">
